@@ -1,0 +1,21 @@
+---
+name: test
+on:
+  push:
+    branches: [master]
+    tags: [v*]
+  pull_request:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install akoi
+        uses: ./
+        id: install-akoi
+        # with:
+        #   version: 'v2.0.0'
+
+      - run: .akoi/bin/akoi --version
