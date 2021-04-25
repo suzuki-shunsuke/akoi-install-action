@@ -8,7 +8,7 @@ Please see [action.yml](action.yml)
 
 ## Example usage
 
-Please see [test.yml](.github/workflows/test.yml)
+Please see [example.yml](.github/workflows/example.yml)
 
 ## LICENSE
 
