@@ -1,4 +1,3 @@
-# action.yml
 name: 'Install akoi'
 description: 'Install suzuki-shunsuke/akoi'
 inputs:
