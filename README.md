@@ -1,4 +1,6 @@
-# akoi-install-action
+# [DEPRECATED] akoi-install-action
+
+**[DEPRECATED] GitHub Actions was migrated to [suzuki-shunsuke/akoi-installer](https://github.com/suzuki-shunsuke/akoi-installer)**
 
 [![Build Status](https://github.com/suzuki-shunsuke/akoi-install-action/workflows/test/badge.svg)](https://github.com/suzuki-shunsuke/akoi-install-action/actions)
 [![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/akoi-install-action.svg)](https://github.com/suzuki-shunsuke/akoi-install-action)
