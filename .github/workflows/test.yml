@@ -14,8 +14,23 @@ jobs:
 
       - name: Install akoi
         uses: ./
-        id: install-akoi
-        # with:
-        #   version: 'v2.0.0'
-
       - run: .akoi/bin/akoi --version
+
+      - name: Install akoi version v2.2.0
+        uses: ./
+        with:
+          version: 'v2.2.0'
+      - run: .akoi/bin/akoi --version
+
+      - name: Install akoi on dist/akoi
+        uses: ./
+        with:
+          path: dist/akoi
+      - run: dist/akoi --version
+
+      - name: Install akoi on dist/akoi version 2.2.0
+        uses: ./
+        with:
+          version: 'v2.2.0'
+          path: dist/akoi
+      - run: dist/akoi --version
